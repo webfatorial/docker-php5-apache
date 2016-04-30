@@ -23,6 +23,7 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN docker-php-ext-install gd
 RUN docker-php-ext-install mcrypt
 RUN docker-php-ext-install mysqli
+RUN docker-php-ext-install mbstring
 
 RUN a2enmod rewrite
 RUN a2enmod headers

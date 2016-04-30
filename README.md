@@ -9,6 +9,7 @@ This fpm is configured to execute with user/group www-data
 * gd
 * mcrypt
 * mysqli
+* mbstring
 
 ## Extras
 
